@@ -5,7 +5,7 @@
 
 Never have to worry about Koa's middleware compatibility.
 
-Koa Adapter enables you to use 1.0 middlewares in [Koa] 2.0+.
+Koa-adapter enables you to use 1.0 middlewares in [Koa] 2.0+.
 
 # Installation
 
