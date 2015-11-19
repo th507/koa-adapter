@@ -25,7 +25,13 @@ const logger = require("koa-logger")
 const koa = require("koa")
 
 const app = new Koa()
+// use legacy middlewares with adapt(...)
 app.use(adapt(logger))
+
+// and new ones directly
+app.use((ctx) => {
+  ctx.body = "Hello world"
+})
 
 ```
 
@@ -36,6 +42,7 @@ Support old (generator) middleware and the new middleware syntax
 const Adapter = require("koa-adapter").Adapter
 
 const _Koa = require("koa")
+// create a thin wrapper for Koa::use
 const Koa = Adapter(_Koa)
 
 const app = new Koa()
