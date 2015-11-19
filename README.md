@@ -29,7 +29,7 @@ const app = new Koa()
 app.use(adapt(logger))
 
 // and new ones directly
-app.use((ctx) => {
+app.use(ctx => {
   ctx.body = "Hello world"
 })
 
@@ -82,5 +82,5 @@ Licensed under the MIT license.
 [Koa]: https://github.com/koajs/koa
 [npm-image]: https://img.shields.io/npm/v/koa-adapter.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/koa-adapter
-[travis-image]: https://img.shields.io/th507/koa-adapter/master.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/th507/koa-adapter/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/th507/koa-adapter
