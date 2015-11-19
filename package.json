@@ -1,0 +1,24 @@
+{
+  "name": "koa-adapter",
+  "version": "0.0.0",
+  "description": "use 1.0 middleware in koa 2.0+",
+  "main": "index.js",
+  "scripts": {
+    "test": "_mocha --require should --require should-http test/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "is-generator-function": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.2.0",
+    "babel-plugin-transform-async-to-generator": "^6.1.18",
+    "koa": "latest",
+    "mocha": "^2.3.4",
+    "should": "^7.1.1",
+    "should-http": "0.0.4",
+    "supertest": "^1.1.0"
+  }
+}
