@@ -1,6 +1,6 @@
 {
   "name": "koa-adapter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "use 1.0 middlewares in koa 2.0",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,8 @@
   },
   "homepage": "https://github.com/th507/koa-adapter",
   "author": {
-      "name": "Jingwei Liu",
-      "email": "liujingwei@gmail.com"
+    "name": "Jingwei Liu",
+    "email": "liujingwei@gmail.com"
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,8 @@
     "adapter"
   ],
   "bugs": {
-      "url" : "http://github.com/th507/koa-adapter/issues",
-      "email" : "liujingwei@gmail.com"
+    "url": "http://github.com/th507/koa-adapter/issues",
+    "email": "liujingwei@gmail.com"
   },
   "license": "MIT",
   "dependencies": {
