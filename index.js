@@ -15,8 +15,8 @@ function adapt(middleware) {
   // avoid wrapping middleware for every request
   let fn = wrap(curry(middleware))
 
-  return async function(ctx, next) {
-    fn(ctx, tick(next))
+  return function(ctx, next) {
+    return fn(ctx, tick(next))
   }
 }
 
