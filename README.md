@@ -14,7 +14,7 @@ $ npm install koa-adapter
 ```
 
 # Example
-You could choose one of the two method.
+You could choose one of the two methods.
 
 #### Adapt individual middleware
 ```js
