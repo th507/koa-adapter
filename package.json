@@ -1,6 +1,6 @@
 {
   "name": "koa-adapter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "use 1.0 middlewares in koa 2.0",
   "main": "index.js",
   "scripts": {
