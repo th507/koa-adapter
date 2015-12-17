@@ -10,6 +10,10 @@ module.exports.Adapter = Adapter
 function* tick(next) { yield next() }
 
 function adapt(middleware) {
+  // skip for non-function
+  if (typeof middleware !== 'function') return middleware
+
+  // skip for modern middleware
   if (!isgen(middleware)) return middleware
 
   // avoid wrapping middleware for every request

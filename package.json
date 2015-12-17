@@ -34,7 +34,7 @@
   "devDependencies": {
     "babel-core": "^6.2.0",
     "babel-plugin-transform-async-to-generator": "^6.1.18",
-    "koa": "latest",
+    "koa": "next",
     "mocha": "^2.3.4",
     "should": "^7.1.1",
     "should-http": "0.0.4",
