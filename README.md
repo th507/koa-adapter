@@ -63,7 +63,7 @@ app.use(ctx => {
 })
 
 // or use `async` function (Babel required)
-app.use((ctx, next) => {
+app.use(async (ctx, next) => {
   const start = new Date
   await next()
   const ms = new Date - start
